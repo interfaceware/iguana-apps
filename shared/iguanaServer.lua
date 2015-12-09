@@ -12,7 +12,7 @@
 -- This module is a fork of the official one - it's basically a Lua wrapper over the
 -- top of the Iguana Channel API.
 
----------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 -- Parameter checking.
 -- In all functions the parameter "Args" should be a table.
 --------------------------------------------------------------------------------
@@ -1078,7 +1078,7 @@ function iguanaServer.connect(Args)
             if Status and #Status > 0 then
                local Channel = ChannelFinder(Status)
                if Channel and Channel.Status:nodeValue() == ChannelStatus then
-                  return true, ChannelStatus
+                  return true
                end
             end
             
@@ -1089,7 +1089,7 @@ function iguanaServer.connect(Args)
                if Channel then
                   LastChannelStatus = Channel.Status:nodeValue()
                   if LastChannelStatus == ChannelStatus then
-                     return true, LastChannelStatus
+                     return true
                   end
                end
                
@@ -1319,7 +1319,7 @@ function iguanaServer.connect(Args)
       
       if Data.Live and Live then
          makeApiRequest("/save_project_milestone",
-            {guid=Args.guid, milestone_name=Args.milestone_name, comment=Args.milestone_name},
+            {guid=Args.guid, milestone_name=Args.milestone_name},
             Live)
       end
       

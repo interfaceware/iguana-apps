@@ -1,0 +1,14 @@
+{
+   "Desc": "Deletes a contact from Highrise using the ID supplied.",
+   "Usage": "highrise.contact.delete{id='22324323'}",
+   "ParameterTable": true,
+   "Parameters": [
+      {
+         "id": {
+            "Desc": "The Highrise Id of the contact you wish to delete (string)"
+         }
+      }
+   ],
+   "SummaryLine": "Delete a contact from Highrise.",
+   "Title": "contact/delete"
+}

@@ -1,0 +1,28 @@
+<channel
+   name="Unit Test - 2. Tests"
+   guid="E0F6E192FBB10809E88B03BAD195DA99"
+   description="This channel has some unit tests run by the unit test GUI.&#xD;&#xA;&#xD;&#xA;See:&#xD;&#xA;&#xD;&#xA;http://help.interfaceware.com/kb/regression-testing-round-ii-ding-ding"
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="true">
+   <to_channel>
+      <dequeue_list>
+         <dequeue
+            source_guid="00000000000000000000000000000000"
+            dequeue_guid="BD9D959878660D18A5F52EDC65440BAB"/>
+      </dequeue_list>
+   </to_channel>
+   <from_channel/>
+   <message_filter
+      filter_after_logging="true"
+      log_pre_post_filter_message="true"
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true"
+      translator_guid="Unit_Test_-_2_Tests-Filter-xmD3fjhYY0DuV3"
+      translator_commit_id="db721a75bfd777a6568302a7b9ecdb58e6b99193"
+      translator_commit_comment="Unit test commit">
+   </message_filter>
+</channel>

@@ -1,0 +1,27 @@
+{
+   "Desc": "Adds a new company record to Highrise.",
+   "ParameterTable": true,
+   "Title": "company/add",
+   "Usage": "local Id = highrise.company.add{name=\"Acme Co.\", background=\"Met this company at a tradeshow\"}",
+   "Returns": [
+      {
+         "Desc": "The unique ID of the company that has been created (String)"
+      }
+   ],
+   "Parameters": [
+      {
+         "name": {
+            "Desc": "Name of the company"
+         }
+      },
+      {
+         "background": {
+            "Desc": "Background information about this company"
+         }
+      }
+   ],
+   "SummaryLine": "Add a new company record to highrise.",
+   "Examples": [
+      "<pre>local Id = highrise.company.add{name=\"Acme Co.\", background=\"Met this company at a trade show\"}</pre>"
+   ]
+}

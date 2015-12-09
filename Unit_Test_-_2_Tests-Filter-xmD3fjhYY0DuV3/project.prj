@@ -1,0 +1,16 @@
+{
+    "LocalDependencies": [],
+    "LuaDependencies": [
+        "file",
+        "stringutil",
+        "test.file",
+        "unittest"
+    ],
+    "OtherDependencies": [],
+    "timestamp": "1449695300",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

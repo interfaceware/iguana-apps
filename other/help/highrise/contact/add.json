@@ -1,0 +1,27 @@
+{
+   "Desc": "Adds a new contact to Highrise",
+   "ParameterTable": true,
+   "Usage": "local Id, ContactXml = highrise.contact.add{firstname = \"John\", lastname = \"Doe\"}",
+   "Returns": [
+      {
+         "Desc": "The unique highrise Id of the new contact record"
+      },
+      {
+         "Desc": "XML representing the contact record."
+      }
+   ],
+   "Parameters": [
+      {
+         "firstname": {
+            "Desc": "First name of person"
+         }
+      },
+      {
+         "lastname": {
+            "Desc": "Last name of person"
+         }
+      }
+   ],
+   "SummaryLine": "Adds a new contact to Highrise",
+   "Title": "contact/add"
+}
