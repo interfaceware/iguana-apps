@@ -1,0 +1,24 @@
+<channel
+   name="Bed Monitor - 2.ADT In"
+   guid="E0F1BAC27C619DE35F2A1C5810A40FCF"
+   description="This bed monitor ADT feed populates a SQLite database which handles powers the bed monitor."
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="Bed_Monitor_-_2ADT_In-To-q63aDzasHMKgPU"
+      commit_id="24b9c18053bd247fe1be6a4e06d932609a463d19"
+      commit_comment="Bed monitor app.">
+      <dequeue_list>
+         <dequeue
+            source_guid="00000000000000000000000000000000"
+            dequeue_guid="A39CC5F3996D43A4A62132CEEDE45D53"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_llp_listener
+      ack_vmd_path="${iguana_dir}/autoack.vmd"
+      port="7823"
+      connection_timeout="1"
+      unlimited_connection_timeout="true"
+      ack_style="fast"/>
+</channel>
