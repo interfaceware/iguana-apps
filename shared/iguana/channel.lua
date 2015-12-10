@@ -131,7 +131,11 @@ function iguana.channel.add(T)
       local EndTime = os.ts.time()
       trace(EndTime-Start)
       Api:importProject{project=ZipData, guid=Guid, sample_data='replace', live=true}
-      Api:saveProjectMilestone{guid=Guid, milestone_name='Channel Manager '..os.date(), live=true}
+      -- Iguana 6 requires a list of files to be given with save milestone.  Until we resolve that
+      -- it's hard to make saveMileStone work.  For the most part the main reason for having the channel
+      -- manager available is for customers that used it with Iguana 5 and need to retrieve channels they
+      -- saved with it.
+      --Api:saveProjectMilestone{guid=Guid, milestone_name='Channel Manager '..os.date(), live=true}
    end
    return NewChanDef
 end

@@ -1,7 +1,7 @@
 <channel
    name="Channel Manager"
    guid="90E112DEABC9BAB534055E01F7AE089C"
-   description=""
+   description="The channel manager application really has been superseded by Iguana 6&apos;s built in ability to import and export channels.&#xD;&#xA;&#xD;&#xA;But if you used Iguana 5 and the channel manager to save channels then you need something to load that format back into Iguana.  So that is the reason for having this.&#xD;&#xA;&#xD;&#xA;Now there is a catch.&#xD;&#xA;&#xD;&#xA;The save milestone API changed in Iguana 6 so that it requires a list of files.   This version of the channel manager works around this change by not saving a milestone.  In some ways this is better since one can then check what has been imported and make sure it doesn&apos;t overwrite any useful modules you have.&#xD;&#xA;&#xD;&#xA;This is really just intended to allow you to migrate existing channels, so I think it works."
    start_automatically="true"
    logging_level="1"
    use_message_filter="false">
@@ -10,8 +10,8 @@
    <from_http
       type="mapper"
       guid="Channel_Manager-FromHTTP-i2ekhhMLY2DX1t"
-      commit_id="9fa58dc9fe9eefb0a0dab06b1321892c49cdc20d"
-      commit_comment="Save milestone."
+      commit_id="78ed3b3ec11d317475bf869c4d826ff5b0670eb2"
+      commit_comment="Comment out save milestone with comment about why - this API changed in Iguana 6.0"
       mapper_url_path="cm/"/>
    <message_filter
       filter_after_logging="false"
