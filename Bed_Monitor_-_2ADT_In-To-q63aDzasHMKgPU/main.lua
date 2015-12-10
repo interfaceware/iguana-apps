@@ -1,4 +1,4 @@
-require 'db'
+require 'bedmonitor.db'
 
 bedmonitor.db.init()
 

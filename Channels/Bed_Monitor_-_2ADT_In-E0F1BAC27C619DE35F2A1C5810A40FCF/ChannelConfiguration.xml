@@ -7,8 +7,8 @@
    use_message_filter="false">
    <to_mapper
       guid="Bed_Monitor_-_2ADT_In-To-q63aDzasHMKgPU"
-      commit_id="acf4b56f9b8edfff68b01174a95a02bc691cf86c"
-      commit_comment="Shifted to using local dependencies.">
+      commit_id="d44e07d8b7ec741593f745e6749292556a050638"
+      commit_comment="Opps re-introduced shared dependency.">
       <dequeue_list>
          <dequeue
             source_guid="00000000000000000000000000000000"
