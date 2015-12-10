@@ -32,8 +32,8 @@
    </to_llp_client>
    <from_mapper
       guid="Bed_Monitor_-_1Fake_ADT_Feed-From-gUF4pjaoKTj9Ys"
-      commit_id="0c7a49d3c4f1e3ce760b220515ddeb0b1551637c"
-      commit_comment="Random ADT generator for bed monitor application."
+      commit_id="dfabee004a9cdbf112a2ec06454e8f020d16ebf7"
+      commit_comment="Got rid of node module - not needed with :S() built into Iguana 6."
       poll_time="10000">
    </from_mapper>
 </channel>

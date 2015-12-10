@@ -1,5 +1,4 @@
 -- require imports a shared module into the project (See Project Manager on left)
-require 'node'
 require 'ran'
 
 -- This is a very rough example showing how we can generate random HL7
