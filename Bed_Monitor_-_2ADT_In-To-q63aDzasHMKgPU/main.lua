@@ -1,5 +1,4 @@
-require 'bedmonitor.db'
-require 'node'
+require 'db'
 
 bedmonitor.db.init()
 

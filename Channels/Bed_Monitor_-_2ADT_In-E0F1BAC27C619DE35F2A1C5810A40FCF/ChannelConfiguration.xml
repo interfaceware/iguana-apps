@@ -7,8 +7,8 @@
    use_message_filter="false">
    <to_mapper
       guid="Bed_Monitor_-_2ADT_In-To-q63aDzasHMKgPU"
-      commit_id="24b9c18053bd247fe1be6a4e06d932609a463d19"
-      commit_comment="Bed monitor app.">
+      commit_id="acf4b56f9b8edfff68b01174a95a02bc691cf86c"
+      commit_comment="Shifted to using local dependencies.">
       <dequeue_list>
          <dequeue
             source_guid="00000000000000000000000000000000"
