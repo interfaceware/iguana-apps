@@ -1,5 +1,3 @@
-require 'stringutil'
-
 -- Notice that the namespace for the module matches the module name - i.e. basicauth
 -- When we use it within the code it is desirable to do:
 -- basicauth = require 'basicauth'

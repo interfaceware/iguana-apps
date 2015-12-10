@@ -8,7 +8,6 @@ lib.webserver = {}
 -- http://help.interfaceware.com/kb/the-anatomy-of-an-iguana-app/2
 
 require 'file'
-require 'json'  --JSON wrapper means that it's easier to make JSON objects.
 
 local basicauth = require 'basicauth'
 
