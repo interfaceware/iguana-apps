@@ -3,8 +3,8 @@ require 'bedmonitor.db'
 bedmonitor.db.init()
 
 function main(Data)
-   local Hl7 = hl7.parse{vmd='app/bedmonitor/demo.vmd', data=Data}
-   local T = db.tables{vmd="app/bedmonitor/bedtables.vmd", name="ADT"}
+   local Hl7 = hl7.parse{vmd='demo.vmd', data=Data}
+   local T = db.tables{vmd="bedtables.vmd", name="ADT"}
    local Db = bedmonitor.db.connect()
    
    if Hl7.MSH[9][1]:nodeValue() == 'ADT' then
