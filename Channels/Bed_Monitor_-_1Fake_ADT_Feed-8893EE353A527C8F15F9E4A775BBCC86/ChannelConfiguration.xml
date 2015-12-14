@@ -32,8 +32,8 @@
    </to_llp_client>
    <from_mapper
       guid="Bed_Monitor_-_1Fake_ADT_Feed-From-gUF4pjaoKTj9Ys"
-      commit_id="dfabee004a9cdbf112a2ec06454e8f020d16ebf7"
-      commit_comment="Got rid of node module - not needed with :S() built into Iguana 6."
+      commit_id="237640fa1ac27c9045f5043ba374ea5a26a620a5"
+      commit_comment="Switch to use local dependencies."
       poll_time="10000">
    </from_mapper>
 </channel>

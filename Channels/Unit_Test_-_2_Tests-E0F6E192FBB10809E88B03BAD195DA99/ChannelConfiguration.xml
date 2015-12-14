@@ -22,7 +22,7 @@
       error_handling="0"
       use_translator_filter="true"
       translator_guid="Unit_Test_-_2_Tests-Filter-xmD3fjhYY0DuV3"
-      translator_commit_id="db721a75bfd777a6568302a7b9ecdb58e6b99193"
-      translator_commit_comment="Unit test commit">
+      translator_commit_id="a771e37eab268f401cd1244e896c660a5262a604"
+      translator_commit_comment="Shifted location of tests to be a local module.">
    </message_filter>
 </channel>
