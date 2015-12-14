@@ -203,7 +203,7 @@ local function getNode(Config)
             NewChannel.channel.from_http.mapper_url_path = NewChannel.channel.from_http.mapper_url_path:nodeValue():gsub(Num, NewChannel.channel.guid:nodeValue())
             Iggy:updateChannel{config=NewChannel, live = true}
             setupTranslator(NewChannel)
-            Iggy:saveProjectMilestone{guid = NewChannel.channel.from_http.guid:nodeValue(), milestone_name = "Remotely created by Spinner", live = true}
+            Iggy:saveProjectMilestone{guid = NewChannel.channel.from_http.guid:nodeValue(), comment = "Remotely created by Spinner", live = true}
             return NewChannel
          end)
       if Success then 

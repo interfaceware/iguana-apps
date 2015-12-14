@@ -10,8 +10,8 @@
    <from_http
       type="mapper"
       guid="Regressions-FromHTTP-xfrnJM6HImyuvu"
-      commit_id="895ecea0db2e8b29be29bf42fa42bc50659ecf14"
-      commit_comment="Fix CSS path."
+      commit_id="6f6532b6eb531526cb17e873d36227c245364262"
+      commit_comment="Fix for spinner with new Iguana 6.0 api."
       mapper_url_path="regressions/"/>
    <message_filter
       filter_after_logging="false"
