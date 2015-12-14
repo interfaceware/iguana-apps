@@ -1,11 +1,11 @@
-require 'cm.app'
-require 'lib.webserver'
+require 'app'
+require 'web.server'
 
 function main(Data)   
-   local Server = lib.webserver.create{
+   local Server = web.webserver.create{
       actions=cm.actions,
       auth=true, -- Requires basic authentication username/password from this Iguana instance
-      default='app/cm/index.html',
+      default='web/index.html',
       -- If the test property is defined then static files are pulled from the sandbox
       -- rather than from the mile-stoned versioned copies of the files.  In production
       -- the test property should be commented out.

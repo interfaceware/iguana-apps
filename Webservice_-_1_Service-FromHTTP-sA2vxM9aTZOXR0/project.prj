@@ -2,14 +2,12 @@
     "LocalDependencies": [],
     "LuaDependencies": [
         "app.webservice.main",
-        "basicauth",
-        "file",
         "highrise.company",
         "highrise.contact",
         "highrise.main",
-        "json",
-        "lib.webserver",
-        "stringutil"
+        "web.basicauth",
+        "web.file",
+        "web.server"
     ],
     "OtherDependencies": [
         "app/webservice/help.js",
@@ -35,7 +33,7 @@
         "treeview/images/arrow-contractable.gif",
         "treeview/images/arrow-expandable.gif"
     ],
-    "timestamp": "1449695355",
+    "timestamp": "1450107173",
     "version_info": {
         "build": 0,
         "major": 6,

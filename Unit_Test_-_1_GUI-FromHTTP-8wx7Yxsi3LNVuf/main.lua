@@ -1,16 +1,16 @@
-require 'testrunner.app'
-require 'lib.webserver'
-local basicauth = require 'basicauth'
+require 'app'
+require 'web.server'
+local basicauth = require 'web.basicauth'
 
 function main(Data)
-   local Server = lib.webserver.create{
+   local Server = web.webserver.create{
       auth=true,
       actions = testrunner.actions,
-      default = 'app/testrunner/index.html',
+      default = 'web/index.html',
       -- If the test property is defined then static files are pulled from the sandbox 
       -- rather than from the mile-stoned versioned copies of the files.  In production
       -- the test propery should be commmented out.
-      test = 'admin'
+      --test = 'admin'
    }
    iguana.stopOnError(false)
    

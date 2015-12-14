@@ -10,8 +10,8 @@
    <from_http
       type="mapper"
       guid="Unit_Test_-_1_GUI-FromHTTP-8wx7Yxsi3LNVuf"
-      commit_id="5a096d15c2d8fcbf64446645deb2ad70d1242338"
-      commit_comment="Unit test commit"
+      commit_id="9f13eb96e1df879860df6cf885b748dc804a6da9"
+      commit_comment="Switched over to use local dependencies."
       mapper_url_path="unit_test_gui/"/>
    <message_filter
       filter_after_logging="false"

@@ -10,8 +10,8 @@
    <from_http
       type="mapper"
       guid="Bed_Monitor_-_3Web_Dashboard-FromHTTP-4MZrMtehY6gw1U"
-      commit_id="c1642e8a7dcdb5c6b40b2d9feb53cb3dc0c26853"
-      commit_comment="Bed monitor."
+      commit_id="a89689984be01f0a84bc05a73db23c9c0ad297fe"
+      commit_comment="Added support for local dependencies in sandbox mode."
       mapper_url_path="bedmonitor/"/>
    <message_filter
       filter_after_logging="false"

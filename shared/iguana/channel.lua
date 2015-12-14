@@ -10,7 +10,7 @@
 
 iguana.channel = {}
 
-require 'file'
+require 'web.file'
 
 -- iguana.channel.getTranslators(ChannelConfig)
 -- 

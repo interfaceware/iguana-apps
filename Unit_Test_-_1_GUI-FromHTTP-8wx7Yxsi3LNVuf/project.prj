@@ -1,24 +1,22 @@
 {
-    "LocalDependencies": [],
+    "LocalDependencies": [
+        "app.lua",
+        "config.lua",
+        "db.lua",
+        "git.lua",
+        "web/help.js",
+        "web/index.html",
+        "web/page.js",
+        "web/style.css"
+    ],
     "LuaDependencies": [
-        "basicauth",
-        "file",
         "iguanaServer",
-        "json",
-        "lib.webserver",
-        "node",
         "spin",
-        "stringutil",
-        "testrunner.app",
-        "testrunner.config",
-        "testrunner.db",
-        "testrunner.git"
+        "web.basicauth",
+        "web.file",
+        "web.server"
     ],
     "OtherDependencies": [
-        "app/testrunner/help.js",
-        "app/testrunner/index.html",
-        "app/testrunner/page.js",
-        "app/testrunner/style.css",
         "lib/page.js",
         "libe/jquery.dataTables/1.9.4/jquery.dataTables.css",
         "libe/jquery.dataTables/1.9.4/jquery.dataTables.min.js",
@@ -35,7 +33,7 @@
         "libe/jquery.dataTables/images/sort_desc_disabled.png",
         "libe/jquery/2.1.0/jquery.min.js"
     ],
-    "timestamp": "1449695272",
+    "timestamp": "1450109583",
     "version_info": {
         "build": 0,
         "major": 6,

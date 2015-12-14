@@ -1,4 +1,4 @@
-require 'lib.webserver'
+require 'web.server'
 require 'app.webservice.main'
 require 'highrise.main'
 
@@ -10,7 +10,7 @@ require 'highrise.main'
 -- a group of functions that are in the core API.
 
 function main(Data)  
-   local Server = lib.webserver.create{
+   local Server = web.webserver.create{
       actions=app.webservice.actions,
       root='highrise',
       methods= highrise,

@@ -10,8 +10,8 @@
    <from_http
       type="mapper"
       guid="Channel_Manager-FromHTTP-i2ekhhMLY2DX1t"
-      commit_id="78ed3b3ec11d317475bf869c4d826ff5b0670eb2"
-      commit_comment="Comment out save milestone with comment about why - this API changed in Iguana 6.0"
+      commit_id="787464f788d5155b42561b807f9f8f2ee7696755"
+      commit_comment="Made image dependencies local."
       mapper_url_path="cm/"/>
    <message_filter
       filter_after_logging="false"

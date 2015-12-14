@@ -1,15 +1,15 @@
 require 'monitor'
-require 'lib.webserver'
+require 'web.server'
 
 monitor.init()
 
-local Server = lib.webserver.create{
+local Server = web.webserver.create{
    actions=monitor.Actions,
-   default='app/monitor/index.html',
+   default='web/index.html',
    -- If the test property is defined then static files are pulled from the sandbox 
    -- rather than from the mile-stoned versioned copies of the files.  In production
    -- the test propery should be commmented out.
-   test='admin'    
+   --test='admin'    
 }  
 
 function main(Data)

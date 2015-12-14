@@ -1,4 +1,4 @@
-local basicauth = require 'basicauth'
+local basicauth = require 'web.basicauth'
 
 app = {}
 app.webservice = {}

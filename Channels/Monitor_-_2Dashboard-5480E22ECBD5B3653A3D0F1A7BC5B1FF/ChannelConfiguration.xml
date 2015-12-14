@@ -10,8 +10,8 @@
    <from_http
       type="mapper"
       guid="Monitor_-_2Dashboard-FromHTTP-hLoIfvOdgQdyad"
-      commit_id="b9a801359513b6f35751601c851d080becb3e60f"
-      commit_comment="Monitor example"
+      commit_id="62a274e7bc2b4f5bdfdad8a674bcd50b3003f573"
+      commit_comment="Put in local dependencies for icons etc."
       mapper_url_path="monitor/"/>
    <message_filter
       filter_after_logging="false"

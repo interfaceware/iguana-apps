@@ -10,8 +10,8 @@
    <from_http
       type="mapper"
       guid="Webservice_-_1_Service-FromHTTP-sA2vxM9aTZOXR0"
-      commit_id="19522487813abe2f998f6757d3a712d6438dfc71"
-      commit_comment="Webservice example"
+      commit_id="a89689984be01f0a84bc05a73db23c9c0ad297fe"
+      commit_comment="Added support for local dependencies in sandbox mode."
       mapper_url_path="webservice/"/>
    <message_filter
       filter_after_logging="false"
