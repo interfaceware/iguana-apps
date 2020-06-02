@@ -1,0 +1,16 @@
+{
+    "LocalDependencies": [],
+    "LuaDependencies": [
+        "hl7util",
+        "node"
+    ],
+    "OtherDependencies": [
+        "HL7_2.5.1.vmd"
+    ],
+    "timestamp": "1591044481",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

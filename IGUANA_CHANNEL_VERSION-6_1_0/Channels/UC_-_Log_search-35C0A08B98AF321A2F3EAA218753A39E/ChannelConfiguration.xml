@@ -1,0 +1,26 @@
+<channel
+   name="UC - Log search"
+   guid="35C0A08B98AF321A2F3EAA218753A39E"
+   description=""
+   start_automatically="true"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_http
+      type="mapper"
+      guid="UC_-_Log_search-FromHTTP-Qa4zkNJVGZUCyO"
+      commit_id="803d16f6544a54c81230e0f80c6a74497bc88292"
+      commit_comment="Import Translators: imported"/>
+   <message_filter
+      filter_after_logging="false"
+      log_pre_post_filter_message="true"
+      keep_vmd_updated="false"
+      original_vmd_path=""
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true">
+   </message_filter>
+</channel>
